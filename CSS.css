@@ -1,0 +1,29 @@
+body {
+    margin: auto;
+}
+
+.header {
+    background-color: black;
+}
+
+.headerButton {
+    height: 2em;
+    color: white;
+    font-family: Arial;
+    font-size: 1.5em;
+    position: relative;
+    top: 0%;
+    transform: translateY(25%);
+    margin-left: 3em;
+    transition: background-color 0.5s ease;
+}
+
+.headerButton :hover {
+    background-color: blue;
+}
+
+h1 {
+    font-family: Arial;
+    font-size: 4em;
+    text-align: center;
+}
